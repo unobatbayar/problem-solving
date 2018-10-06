@@ -1,2 +1,2 @@
 # codingbat
-my solutions for codingbat website problems
+solving problems in java & python at codingbat.com
