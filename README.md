@@ -1,2 +1,2 @@
 # codingbat
-solving coding problems in java & python at codingbat.com
+solving coding problems in java & python @ codingbat.com
