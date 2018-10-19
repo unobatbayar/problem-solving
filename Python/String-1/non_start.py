@@ -10,7 +10,6 @@ non_start('shotl', 'java') → 'hotlava'
 @author unobatbayar
 
 """
-
 def non_start(a, b):
   first = a[1:]
   last = b[1:]
