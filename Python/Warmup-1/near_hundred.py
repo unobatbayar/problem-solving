@@ -11,11 +11,8 @@ near_hundred(89) → False
 
 """
 def near_hundred(n):
-    near_ten = abs(100 - n)
-    near_ten2 = abs(200 - n)
-    if near_ten <= 10:
-      return True
-    elif near_ten2 <= 10:
-      return True
-    return False
+  if abs(100 - n) <= 10 or abs(200 - n) <= 10:
+    return True
+  return False
+
 
