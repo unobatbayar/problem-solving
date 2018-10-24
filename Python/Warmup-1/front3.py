@@ -10,6 +10,10 @@ front3('abc') → 'abcabcabc'
 @author unobatbayar
 
 """
+def front3(str):
+    return str[:3]*3
+
+""" Old solution 
 
 def front3(str):
   if len(str) < 3:
@@ -17,3 +21,4 @@ def front3(str):
   else:
     newstring = str[0] + str[1] + str[2]
     return newstring*3
+"""
