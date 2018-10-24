@@ -7,4 +7,13 @@ string_match('abc', 'axc') → 0
 
 @author unobatbayar
 """
-
+def string_match(a, b):
+  counter = 0
+  shortest = min(len(a), len(b))
+  
+  for x in range(0, shortest-1):
+    a_two = a[x] + a[x+1] #using modulus would've been better a[i:i+2]
+    b_two = b[x] + b[x+1] #using modulus would've been better a[i:i+2]
+    if a_two == b_two:
+      counter = counter + 1
+  return counter
