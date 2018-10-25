@@ -18,8 +18,7 @@ class sum2{
      case(0):return 0;
      case(1): return nums[0];
      default: return nums[0] + nums[1];
-  }
-}
-
-      
+     } 
+    }
+     
 }
