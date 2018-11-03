@@ -7,8 +7,8 @@ close10(8, 13) → 8
 close10(13, 8) → 8
 close10(13, 7) → 0
 
-@unobatbayar - I coded this and it works, but I don't understand how, weird. 
-codingbat needs to update their checking/testing.
+@unobatbayar - I coded this and it works, but I think it shouldn't, weird. 
+maybe codingbat needs to update their checking/testing.
 */
 
 class close10{
