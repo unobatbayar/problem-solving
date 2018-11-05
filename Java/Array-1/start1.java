@@ -11,15 +11,9 @@ start1([1, 2], []) → 1
 
 class start1{
     public int start1(int[] a, int[] b) {
-        int counter = 0;
-        
-        for (int i = 0; i < a.length; i++){
-          if (a[i] == 1) counter++;
-        }
-        
-        for (int i = 0; i < b.length; i++){
-          if(b[i] == 1) counter ++;
-        }
-        return counter;
-      }      
+        int count = 0;
+        if(a.length > 0 && a[0] == 1) count ++;
+        if(b.length > 0 && b[0] == 1) count ++;
+        return count;
+    }        
 }
