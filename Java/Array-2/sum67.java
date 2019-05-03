@@ -19,7 +19,6 @@ public int sum67(int[] nums) {
         ignore = false; 
         continue;
       } 
-      
       if(ignore == false) sum+=nums[i];
     }
     return sum;
