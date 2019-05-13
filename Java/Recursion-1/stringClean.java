@@ -14,7 +14,6 @@ stringClean("Hello") → "Helo"
 
  class stringClean{
     public String stringClean(String str) {
-        int i = 1;
         if(str.length() <= 1){
           return str;
         }
