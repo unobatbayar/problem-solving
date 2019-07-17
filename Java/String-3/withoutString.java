@@ -9,6 +9,11 @@ withoutString("Hello there", "x") → "Hello there"
 */
 
 public String withoutString(String base, String remove) {
-    return base.replace(remove, "");
+    base = base.replace(remove.toUpperCase(), "");
+    base = base.replace(remove.toLowerCase(), "");
+    base = base.replace(remove, "");
+    
+    return base;
   }
+  
   
