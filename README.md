@@ -1,5 +1,5 @@
-# CodingBat
-solving coding problems in java & python @www.codingbat.com
+# [CodingBat](https://www.codingbat.com)
+solving coding problems in java & python @CodingBat
 
 - [X] Python completed 1 Nov 2018
 
