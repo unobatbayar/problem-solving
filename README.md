@@ -1,5 +1,5 @@
 <div align="center">
-  <h1><code>codingbat</code></h1>
+  <h1><code>coding-bat</code></h1>
 
   <strong>Solving all coding problems both in Java & Python on <a href="https://www.codingbat.com">CodingBat</a></strong>
 
