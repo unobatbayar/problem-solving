@@ -1,7 +1,7 @@
 <div align="center">
   <h1><code>codingbat</code></h1>
 
-  <strong>Solving all coding problems both in Java & Python <a href="www.codingbat.com>CodingBat</a></strong>
+  <strong>Solving all coding problems both in Java & Python <a href="www.codingbat.com">CodingBat</a></strong>
 
 <h3>
     <a href="https://github.com/unobatbayar/codingbat/pull/new/master">Contribute</a>
