@@ -1,13 +1,13 @@
 <div align="center">
   <h1><code>codingbat</code></h1>
 
-  <strong>Solving all coding problems both in Java & Python on <a href="www.codingbat.com">CodingBat</a></strong>
+  <strong>Solving all coding problems both in Java & Python on <a href="https://www.codingbat.com">CodingBat</a></strong>
 
 <h3>
     <a href="https://github.com/unobatbayar/codingbat/pull/new/master">Contribute</a>
   </h3>
 
-  <sub> Built with ❤️️ on Earth</sub>
+  <sub> Built with ❤️️ by <a href="https://www.twitter.com/unobatbayar">unobatbayar</sub>
 </div>
 
 ## Progress
