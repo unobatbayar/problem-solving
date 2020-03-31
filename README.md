@@ -7,7 +7,7 @@
     <a href="https://github.com/unobatbayar/codingbat/pull/new/master">Contribute</a>
   </h3>
 
-  <sub> Built with ❤️️ by <a href="https://www.twitter.com/unobatbayar">unobatbayar</a></sub>
+  <sub> Built with ❤️️ by <a href="https://www.twitter.com/unobatbayar">unobatbayar</a> to practice problem solving on easy to intermediate problems.</sub>
 </div>
 
 ## Progress
