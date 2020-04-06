@@ -1,7 +1,7 @@
 <div align="center">
   <h1><code>coding-bat</code></h1>
 
-  <strong>Solving all coding problems both in Java & Python on <a href="https://www.codingbat.com">CodingBat</a>.</strong>
+  <strong>Complete solutions for all coding problems both in Java & Python on <a href="https://www.codingbat.com">CodingBat</a>.</strong>
 
 <h3>
     <a href="https://github.com/unobatbayar/codingbat/pull/new/master">Contribute</a>
