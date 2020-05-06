@@ -18,3 +18,6 @@
 - [X] Java progress 6 May 2019
 
 ![alt text](https://github.com/unobatbayar/codingbat/blob/master/images/java_progress.png)
+
+<sub>Give feedback, ideas and more: <br> <sub> 
+[![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/unobatbayar.svg?style=social&label=Follow%20%40unobatbayar)](https://twitter.com/unobatbayar)
