@@ -11,27 +11,15 @@ blueTicket(9, 1, 0) → 10
 blueTicket(9, 2, 0) → 0
 blueTicket(6, 1, 4) → 10
 
+@author unobatbayar
  */
 
-class blueTicket{
-    public int blueTicket(int a, int b, int c) {
-        int diff1 = (a+b) - (b+c);
-        int diff2 = (a+b) - (a+c);
-        int result;
-        
-        if (a+b == 10 || b+c == 10 || a+c == 10)
-        {
-          result = 10;
-        }
-        else if (diff1 == 10 || diff2 == 10)
-        {
-          result = 5;
-        }
-        else
-        {
-          result = 0;
-        }
-        return result;
-    }
-      
+public int blueTicket(int a, int b, int c) {
+  int diff1 = (a+b) - (b+c);
+  int diff2 = (a+b) - (a+c);
+
+  if (a+b == 10 || b+c == 10 || a+c == 10) return 10;
+  if (diff1 == 10 || diff2 == 10) return 5;
+
+  return 0;
 }
