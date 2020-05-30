@@ -11,30 +11,25 @@ mixString("xxxx", "There") → "xTxhxexre"
 **/
 
 public String mixString(String a, String b) {
-  int length = a.length() + b.length();
-  boolean a_turn = true;
-  String result = "";
-  
-  for(int i = 0; i<length; i++){
-    if(a_turn){
-      if(a.equals("")){
-        result += b;
-        break;
-      }
-      result += a.substring(0, 1);
-      a = a.substring(1);
-      a_turn = false;
+    int length = Math.max(a.length(), b.length());
+    String result = "";
+
+    for (int i = 0; i < length; i++) {
+        if (a.equals("")) {
+            result += b;
+            break;
+        }
+        if (b.equals("")) {
+            result += a;
+            break;
+        }
+        
+        result += a.substring(0, 1);
+        a = a.substring(1);
+        
+        result += b.substring(0, 1);
+        b = b.substring(1);
     }
-    else{
-      if(b.equals("")){
-        result += a;
-        break;
-      }
-      result += b.substring(0, 1);
-      b = b.substring(1);
-      a_turn = true;
-    }
-  }
-  
-  return result;
+
+    return result;
 }
