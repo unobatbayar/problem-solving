@@ -12,4 +12,4 @@
 
 
 <sub>Give feedback, ideas and more: <br> <sub> 
-[![Soundcloud URL](https://img.shields.io/twitter/url/https/twitter.com/unobatbayar.svg?style=social&label=Follow%20%40unobatbayar)](https://twitter.com/unobatbayar)
+[![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/unobatbayar.svg?style=social&label=Follow%20%40unobatbayar)](https://twitter.com/unobatbayar)
