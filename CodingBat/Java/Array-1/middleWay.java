@@ -7,7 +7,7 @@ middleWay([5, 2, 9], [1, 4, 5]) → [2, 4]
 @author unobatbayar
  */
 public int[] middleWay(int[] a, int[] b) {
-    int[] new_array = {a[a.length/2], b[b.length/2]};
-    return new_array;
-  }
+  return new int[]{a[a.length/2], b[b.length/2]};
+}
+
   
