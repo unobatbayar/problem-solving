@@ -1,7 +1,7 @@
 <div align="center">
   <h1><code>problem-solving</code></h1>
 
-  <strong>Complete solutions for all problems on CodingBat, HackerRank, LeetCode and more!</strong>
+  <strong>Complete solutions for problems on CodingBat, HackerRank, ProjectEuler and more!</strong>
 
 <h3>
     <a href="https://github.com/unobatbayar/problem-solving/pull/new/master">Contribute</a>
