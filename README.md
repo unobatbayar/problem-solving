@@ -3,9 +3,8 @@
 
   <strong>Complete solutions for problems on CodingBat, HackerRank, ProjectEuler and more!</strong>
 
-<h3>
-    <a href="https://github.com/unobatbayar/problem-solving/pull/new/master">Contribute</a>
-  </h3>
+<h3> Disclaimer
+   </h3>
 
   <sub> Built by <a href="https://www.twitter.com/unobatbayar">unobatbayar</a> for practice. </sub>
 </div>
