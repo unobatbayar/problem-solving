@@ -6,7 +6,7 @@
   <sub> Built by <a href="https://www.twitter.com/unobatbayar">unobatbayar</a> for practice. </sub>
 </div>
 
-** Disclaimr
+## Disclaimer
 Please use my solutions as a reference after you've solved on your own.
 
 <sub>Give feedback, ideas and more: <br> <sub> 
