@@ -3,8 +3,7 @@
 
   <strong>Complete solutions for problems on CodingBat, HackerRank, ProjectEuler and more!</strong>
 
-<h3> Disclaimer</h3>
-<p> Please use my solutions as a reference after you've solved on your own. </p>
+<h4> Disclaimer: Please use my solutions as a reference after you've solved on your own.</h4>
 
   <sub> Built by <a href="https://www.twitter.com/unobatbayar">unobatbayar</a> for practice. </sub>
 </div>
