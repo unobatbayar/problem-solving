@@ -9,13 +9,14 @@ What is the largest prime factor of the number 600851475143?
 
 **/
 int main() {
-	// your code goes here
 	double number = 600851475143;
 	double largest_prime = 0;
 	
+	// find factor
 	for(double i = 2; i<=number/2; i++){
 	       if(fmod(number,i) == 0){
 	            bool prime = true;
+		    // find prime
 	            for(double k = 2; k<=i/2; k++){
 	                if(fmod(i,k) == 0) prime = false;
 	            }
