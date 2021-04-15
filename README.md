@@ -3,7 +3,7 @@
 
   <strong>Complete solutions for problems on CodingBat, LeetCode, HackerRank, ProjectEuler and more!</strong>
   
-  <sub> Built by <a href="https://www.twitter.com/unobatbayar">unobatbayar</a> for practice. </sub>
+  <sub> Built by <a href="https://www.twitter.com/unobatbayar">unobatbayar</a> to practice problem solving and learn competitive programming. </sub>
 </div>
 
 ### Disclaimer
