@@ -22,8 +22,8 @@ int main () {
         if(next%2 == 0) sum += next;
         first = second;
         second = next;
-        
    }
+   
    cout << sum;
  
    return 0;
