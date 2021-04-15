@@ -1,7 +1,7 @@
 <div align="center">
   <h1><code>problem-solving</code></h1>
 
-  <strong>Complete solutions for problems on CodingBat, HackerRank, ProjectEuler and more!</strong>
+  <strong>Complete solutions for problems on CodingBat, Leetcode, HackerRank, ProjectEuler and more!</strong>
   
   <sub> Built by <a href="https://www.twitter.com/unobatbayar">unobatbayar</a> for practice. </sub>
 </div>
