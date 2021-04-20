@@ -1,8 +1,6 @@
 ﻿#include <stdio.h>
 /*
 
-At https://www.hackerrank.com/challenges/functions-in-c/problem
-
 Add `int max_of_four(int a, int b, int c, int d)` here.
 */
 
