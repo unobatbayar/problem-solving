@@ -10,8 +10,6 @@
 
 char* readline();
 
-
-
 int main()
 {
     char* n_endptr;
@@ -19,6 +17,7 @@ int main()
     int n = strtol(n_str, &n_endptr, 10);
 
     if (n_endptr == n_str || *n_endptr != '\0') { exit(EXIT_FAILURE); }
+    
     // Write Your Code Here
     char literal_numbers[11][14] = {
         "zero", 
@@ -33,8 +32,10 @@ int main()
         "nine",
         "Greater than 9", 
         };
+    
     if(n <= 9) printf("%s", literal_numbers[n]);
     else printf("%s", literal_numbers[10]);
+    
     return 0;
 }
 
