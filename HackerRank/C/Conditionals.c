@@ -19,7 +19,7 @@ int main()
     if (n_endptr == n_str || *n_endptr != '\0') { exit(EXIT_FAILURE); }
     // Write Your Code Here
     
-    char literal_numbers[9][14] = {"one", "two", "three", "four", "five", "six", "seven", "eight", "nine"};
+    char literal_numbers[9][6] = {"one", "two", "three", "four", "five", "six", "seven", "eight", "nine"};
     
     if(n <= 9) printf("%s", literal_numbers[n - 1]);
     else printf("%s", "Greater than 9");
