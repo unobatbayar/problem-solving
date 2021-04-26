@@ -17,8 +17,8 @@ int diagonalDifference(vector<vector<int>> vect) {
     int sum_left = 0, sum_right = 0;
         for (int i = 0; i < vect.size(); i++)
         {
-                    sum_left += vect[i][i];
-                    sum_right += vect[vect.size() - 1 - i][i];
+            sum_left += vect[i][i];
+            sum_right += vect[vect.size() - 1 - i][i];
         }
         return abs(sum_left - sum_right);
 }
