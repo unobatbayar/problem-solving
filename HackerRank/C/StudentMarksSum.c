@@ -9,14 +9,8 @@ int marks_summation(int* marks, int number_of_students, char gender) {
   //Write your code here.
   int sum = 0;
   for(int i = 0; i<number_of_students; i++){
-      switch(gender){
-          case 'b':
-            if(i%2 == 0) sum += marks[i];
-            break;
-          case 'g':
-            if(i%2 != 0) sum += marks[i];
-            break;
-      }
+      if(gender == 'b' && i%2 == 0) sum += marks[i];
+      else if(gender == 'g' && i%2 != 0) sum += marks[i];
   }
   return sum;
 }
