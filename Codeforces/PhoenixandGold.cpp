@@ -16,38 +16,30 @@ int main()
         int number, avoid;
         cin >> number >> avoid;
         int weights[number];
-        int solution[number];
-        bool possible;
+        bool possible = true;
 
+        int total = 0;
         for(int i = 0; i <number; i++){
             cin >> weights[i];
+            total += weights[i];
         }
-
-        for(int i = 0; i <number; i++){
-            possible = true;
-            int total = weights[i];
-            solution[0] = weights[i];
-            int counter = 1;
-            for(int j = 0; j< number; j++){
-                if(total == avoid){
-                    possible = false;
-                    break;
-                }
-                if(i == j) continue;
-                total += weights[j];
-                solution[counter] = weights[j];
-                counter++;
+        if(total == avoid){
+            cout << "NO" << endl;
+            continue;
+        }
+        // Solution exists
+        cout << "YES" << endl;
+        total = 0;
+        for(int i = 0; i<number; i++){
+            if(total + weights[i] == avoid){
+                // swap
+                swap(weights[i], weights[i+1]);
             }
+            total += weights[i];
+            cout << weights[i] << ' ';
+    
         }
-        if(possible){
-            cout << "YES" << endl;
-            for(int i = 0; i<number; i++){
-                cout << solution[i] << " ";
-            }
-            cout << endl;
-        }
-        else cout << "NO" << endl;
- 
+        cout << endl;
     }
  
  
