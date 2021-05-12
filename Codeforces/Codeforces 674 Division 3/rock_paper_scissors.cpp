@@ -1,5 +1,6 @@
 
 #include <iostream>
+#include <algorithm>
 using namespace std;
 
 int main()
@@ -11,14 +12,18 @@ int main()
     int bob_rock, bob_scissor, bob_paper;
 
     // Output
-    int min, max;
+    int minimum = 0, maximum = 0;
 
     cin >> n;
     cin >> alice_rock >> alice_scissor >> alice_paper;
     cin >> bob_rock >> bob_scissor >> bob_paper;
 
-    for(int i = 0; i<n ;i++){
-        
-  
-    }
+    maximum = min(alice_rock, bob_scissor) + min(alice_scissor, bob_paper) + min(alice_paper, bob_rock);
+
+    // to do minimum
+
+
+
+    cout << minimum << ' ' << maximum << endl;
+    return 0;
 }
