@@ -8,12 +8,7 @@ using namespace std;
 
 
 int main() {
-    /* Enter your code here. Read input from STDIN. Print output to STDOUT 
-      : Add an element  to the set.
-  : Delete an element  from the set. (If the number  is not present in the set, then do nothing).
-  : If the number  is present in the set, then print "Yes"(without quotes) else print "No"(without quotes).
-  
-  */   
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */   
   
     int q;
     cin >> q;
