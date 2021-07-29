@@ -1,46 +1,45 @@
 #include <iostream>
-#include <set>
 using namespace std;
+
+bool ordinary(int n){
+    int s = n;
+    int a = -1;
+    while(s != 0){
+        if(a != -1){
+            if(s%10 != a){
+                return false;
+            }
+        }
+        a = s%10;
+        s = s/10;
+    }
+    return true;
+}
+
+int solve(int n){
+
+    if(n < 10) return n;
+    
+    int counter = 0;
+    while(n > 10){
+        counter++;
+        n = n/10;
+    }
+
+    return counter*9 + (n-1);
+}
 
 int main()
 {
-    // Tests
-    int tests;
+    int tests = 2;
     cin >> tests;
 
     while(tests--){
         int n; 
         cin >> n;
-        int total = 0;
-        
-        if(n < 10){
-            cout << n << endl;
-            continue;
-        }
-        for(int i = 1; i<=n; ++i){
-            
-            bool ordinary = true;
-            
-            int s = i;
-            int a = -1;
-            while(s != 0){
-                if(a != -1){
-                    if(s%10 != a){
-                    ordinary = false;
-                    break;
-                }
-                }
 
-                a = s%10;
-                s = s/10;
-            }
-            if(ordinary) total++;
-        }
-        
-        
-        cout << total << endl;
+        cout << solve(n) << endl;
     }
-
 
     return 0;
 }
