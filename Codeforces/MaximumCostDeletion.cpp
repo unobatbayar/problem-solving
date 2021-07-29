@@ -14,7 +14,7 @@ int main()
         cin >> n >> a >> b >> s;
         int m = unique(s.begin(), s.end()) - s.begin();
 
-        cout << "What?: " << n * a << "Huh?: " << max(n * b, (m / 2 + 1) * b) << endl;
+        cout << "?: " << n * a << "Huh?: " << max(n * b, (m / 2 + 1) * b) << endl;
     }
 
     return 0;
