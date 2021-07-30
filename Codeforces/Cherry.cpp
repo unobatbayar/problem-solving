@@ -25,11 +25,12 @@ int main()
         for (int i = 0; i < length; i++)
         {
             cin >> numbers[i];
-            if(i == 0) continue;
-                        
-            ll result = numbers[i-1] * numbers[i];
-            if(result > maximum) maximum = result;
+            if (i == 0)
+                continue;
 
+            ll result = numbers[i - 1] * numbers[i];
+            if (result > maximum)
+                maximum = result;
         }
         cout << maximum << endl;
     }
