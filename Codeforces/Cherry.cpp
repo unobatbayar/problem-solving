@@ -19,31 +19,20 @@ int main()
             return a;
         }
 
-        ll max_n = 0;
         ll numbers[length];
+        ll maximum = 0;
+
+        ll previous_number = 0;
         for (int i = 0; i < length; i++)
         {
             cin >> numbers[i];
+            if(i == 0) continue;
+                        
+            ll result = numbers[i-1] * numbers[i];
+            if(result > maximum) maximum = result;
+
         }
-
-        for (int i = 0; i < length - 1; i++)
-        {
-            for (int k = 0; k < length - 1; k++)
-            {
-                // if (i == k)
-                //     continue;
-
-                ll maximum = max(numbers[i], numbers[i + 1]);
-                ll minimum = min(numbers[k], numbers[k + 1]);
-
-                ll result = maximum * minimum;
-                if (result > max_n)
-                    max_n = result;
-            }
-        }
-
-        cout
-            << max_n << endl;
+        cout << maximum << endl;
     }
 
     return 0;
