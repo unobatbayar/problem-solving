@@ -22,7 +22,6 @@ int main()
         ll numbers[length];
         ll maximum = 0;
 
-        ll previous_number = 0;
         for (int i = 0; i < length; i++)
         {
             cin >> numbers[i];
