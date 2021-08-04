@@ -7,9 +7,7 @@ ll solve(){
     ll friends;
     cin >> friends;
     if(friends < 6) return 15;
-    else{
-        return (friends/2)*5 + (friends%2 != 0 ? 5 : 0);
-    }
+    return (friends/2)*5 + (friends%2 != 0 ? 5 : 0);
 }
 
 int main()
