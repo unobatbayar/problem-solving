@@ -7,16 +7,18 @@ int main()
 {
     int tests;
     cin >> tests;
-    while(tests--){
+    while (tests--)
+    {
         ll x;
         cin >> x;
 
         // Right most bit -> tests[i]%10
         // Left most bit -> tests[i]/10
-        ll right = x%10;
-        ll left = x/10;
-      
-        if(right >= 9) left++;
+        ll right = x % 10;
+        ll left = x / 10;
+
+        if (right >= 9)
+            left++;
 
         cout << left << endl;
     }
