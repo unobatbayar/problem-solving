@@ -3,25 +3,25 @@
  */
 
 #include <iostream>
-#include <string>
+#include <math.h>
 using namespace std;
 
-int main()
-{
+int solve(){
     int matrix[5][5];
-    int moves = 0;
-
     for(int i = 0 ; i<5; i++){
         for(int j = 0; j<5; j++){
             cin >> matrix[i][j];
             if(matrix[i][j] == 1){
-                // Logic here   
+                int a = abs(2 - i);
+                int b = abs(2 - j);
+                return a + b;
             }
         }
     }
-
-
-    cout << matrix[1][4];
-
+    return 0;
+}
+int main()
+{
+    cout << solve();
     return 0;
 }
