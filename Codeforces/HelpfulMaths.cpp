@@ -1,5 +1,5 @@
 #include <iostream>  // std::cout, std::cin
-#include <bits/stdc++.h>
+#include <bits/stdc++.h> // includes all standard library
 using namespace std;
 
 int main()
