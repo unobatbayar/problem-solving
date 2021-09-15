@@ -1,22 +1,28 @@
 #include <iostream>
-#include <unordered_map>
+#include <set>
+
 using namespace std;
  
 int distinct(int n){
-    while(true){
-        n++;
-        if(n%10 != (n/10)%10 != (n/100)%10 != (n/1000)%10) return n;
-    }
-    return 0;
-    
+    set<int> visited;
+    int temp = n;
 
+    while(temp > 0){
+        if(visited.count(temp%10)){
+            return distinct(n+1);
+        }
+        visited.insert(temp%10);
+        temp/=10;
+    }
+
+    return n;
 }
+
 int main() {
  
-    int n = 1987;
-    //cin >> year;
-
-    cout << distinct(n);
+    int year;
+    cin >> year;
+    cout << distinct(year+1);
     
     return 0;
 }
