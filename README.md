@@ -3,5 +3,5 @@
 
   <strong>Solving problems on CodingBat, LeetCode, HackerRank, ProjectEuler and more!</strong>
   
-  <sub> Made by <a href="https://www.twitter.com/unobatbayar">unobatbayar</a> for everyday practice. </sub>
+  <sub> Made by <a href="https://www.github.com/unobatbayar">unobatbayar</a> for everyday practice. </sub>
 </div>
