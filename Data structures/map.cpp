@@ -7,15 +7,13 @@ using namespace std;
  * https://www.youtube.com/watch?v=24VAm8gzWq4
  * 
  * 
- * Unordered set does not contain a duplicate element. 
- * Upon insertion, set automatically sorts it but it can be any order
- * 
+ * Map is very similar to set but it stores a key and a value 
+ *
  * Common methods
  * insert() O(log n) insert using make_pair
  * find() O(log n) returns pair
  * [] -> bracket operators O(log n) if values exists returns ref to value, otherwise, inserts.
  * size() O(1)
- * erase(val)
  **/
 
 int main()
