@@ -17,7 +17,18 @@ vector<string> split(const string &);
  */
 
 int divisibleSumPairs(int n, int k, vector<int> ar) {
-
+    int total_pairs = 0;
+    
+    for(int i = 0; i<n; ++i){
+        for(int j = 0; j<n; ++j){
+            if(i < j){
+                int sum = ar[i] + ar[j];
+                if(sum%k == 0) ++total_pairs;
+            }
+        }
+    }
+    
+    return total_pairs;
 }
 
 int main()
