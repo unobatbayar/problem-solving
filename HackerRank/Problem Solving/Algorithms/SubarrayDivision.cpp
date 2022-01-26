@@ -20,8 +20,6 @@ int birthday(vector<int> s, int d, int m) {
     // m = length
     // d = sum
     int arrangements = 0; // to return
-    int sum = 0;
-    int count = 0;
     
     for(int i = 0; i<s.size(); i++){
         int sum = 0;
