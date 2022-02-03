@@ -5,9 +5,7 @@ int main() {
 	int length;
 	cin >> length;
 	
-	int total = 0;
-	
-	// to return
+	int total = 0;	
 	char current = ' ';
 	
     while(length--){
