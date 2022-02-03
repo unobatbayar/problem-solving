@@ -6,7 +6,7 @@ int main() {
 	cin >> length;
 	
 	int total = 0;	
-	char current = ' ';
+	char current;
 	
     while(length--){
         
