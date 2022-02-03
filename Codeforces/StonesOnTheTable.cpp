@@ -20,10 +20,9 @@ int main() {
         if(current == input) total++;
         else {
             current = input;
-        }
-        
+        }   
     }
     
     cout << total << endl;
-	return 0;
+    return 0;
 }
