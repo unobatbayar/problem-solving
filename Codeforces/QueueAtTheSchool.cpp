@@ -7,7 +7,6 @@ int main() {
     
     cin >> total >> seconds;
     
-
     string queue;
     cin >> queue;
     
@@ -23,5 +22,5 @@ int main() {
     
     cout << queue;
     
-	return 0;
+    return 0;
 }
