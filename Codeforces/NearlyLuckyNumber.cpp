@@ -1,7 +1,7 @@
     #include <iostream>
     using namespace std;
 
-	#define ll long long
+    #define ll long long // because (1 ≤ n ≤ 10^18)
      
     bool lucky(int number){
         // single digit numbers
