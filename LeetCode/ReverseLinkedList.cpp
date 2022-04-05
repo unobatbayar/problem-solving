@@ -15,7 +15,7 @@ public:
         
         while(head != nullptr){
             // Save next destination
-            ListNode* next_destination = head->next;
+            ListNode* next = head->next;
             
             // Reverse current node's destination
             head->next = previous;
@@ -24,7 +24,7 @@ public:
             previous = head;
             
             // Continue
-            head = next_destination;
+            head = next;
         }
         
         return previous;
