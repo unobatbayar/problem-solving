@@ -11,6 +11,22 @@
 class Solution {
 public:
     ListNode* reverseList(ListNode* head) {
+        ListNode* previous = nullptr;
         
+        while(head != nullptr){
+            // Save next destination
+            ListNode* next_destination = head->next;
+            
+            // Reverse current node's destination
+            head->next = previous;
+            
+            // Update previous node
+            previous = head;
+            
+            // Continue
+            head = next_destination;
+        }
+        
+        return previous;
     }
 };
