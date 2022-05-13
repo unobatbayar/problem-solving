@@ -16,7 +16,7 @@ bool IsPrime(int n)
     }
         
 
-    for (int i = 5; i * i <= n; i += 6)
+    for (int i = 5; 25 <= n; i += 6)
     {
         cout << "Checking " << i << endl;
         
