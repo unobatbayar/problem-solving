@@ -9,12 +9,10 @@ bool IsPrime(int n)
         return true;
     }
         
-
     if (n <= 1 || n % 2 == 0 || n % 3 == 0){
         cout << "0 or 1 or even or divisible by 3 number found " << endl;
         return false;
     }
-        
 
     for (int i = 5; 25 <= n; i += 6)
     {
