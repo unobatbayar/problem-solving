@@ -30,15 +30,12 @@ int main() {
 	int target = 10001;
 	int count = 0;
 	int number = 2;
-	
-	bool found = false;
-	
-	while(!found){
+		
+	while(true){
 	    if(IsPrime(number)) count++;
 	    
 	    if(count == target){
 	        cout << "Found: " << number << endl;
-	        found = true;
 	        break;
 	    }
 	    number++;
