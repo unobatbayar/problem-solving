@@ -3,9 +3,9 @@ using namespace std;
 
 void swap(int *x, int *y)
 {
-    int z = *x;
+    int temp = *x;
     *x = *y;
-    *y = z;
+    *y = temp;
 }
 
 int main() {
