@@ -18,6 +18,5 @@ int main() {
         cout << arr[i] << " ";
     }
         
-	// your code goes here
-	return 0;
+    return 0;
 }
