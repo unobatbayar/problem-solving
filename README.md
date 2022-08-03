@@ -3,5 +3,5 @@
 
   <strong>Solving programming problems from various websites</strong>
   
-  <sub> Made by <a href="https://www.github.com/unobatbayar">unobatbayar</a> for everyday practice. </sub>
+  <sub> Made by <a href="https://www.github.com/unobatbayar">unobatbayar</a> for practice. </sub>
 </div>
