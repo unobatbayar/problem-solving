@@ -1,2 +1,0 @@
-- name: Send Tweet Action
-  uses: ethomson/send-tweet-action@v1.0.0
