@@ -11,3 +11,5 @@ jobs:
           consumer-secret: ${{ secrets.TWITTER_CONSUMER_API_SECRET }}
           access-token: ${{ secrets.TWITTER_ACCESS_TOKEN }}
           access-token-secret: ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }}
+          client-id: ${{ secrets.TWITTER_CLIENT_ID }}
+          client-secret: ${{ secrets.TWITTER_CLIENT_SECRET }}
