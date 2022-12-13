@@ -3,5 +3,6 @@
 
   <strong>Solving programming problems from various websites</strong>
    
+   Give feedback, ideas and more: 
   [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/unobatbayar.svg?style=social&label=%40unobatbayar)](https://twitter.com/unobatbayar)
 </div>
