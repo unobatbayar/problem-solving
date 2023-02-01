@@ -5,7 +5,6 @@ public:
 
         while(grid[0].size() > 0){
             int maximum = INT_MIN;
-            int maximum_index = 0;
 
             // iterate
             for(int i = 0; i<grid.size(); ++i){
