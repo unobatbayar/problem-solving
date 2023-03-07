@@ -1,13 +1,13 @@
-name: Send Tweet
-on: [push]
-jobs:
-  tweet:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: dart-actions/tweet@v1.0.1
-        with:
-          text: https://github.com/unobatbayar/problem-solving/commit/${{ github.event.head_commit.id}}
-          consumer-key: ${{ secrets.TWITTER_CONSUMER_API_KEY }}
-          consumer-secret: ${{ secrets.TWITTER_CONSUMER_API_SECRET }}
-          access-token: ${{ secrets.TWITTER_ACCESS_TOKEN }}
-          access-token-secret: ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }}
+# name: Send Tweet
+# on: [push]
+# jobs:
+#   tweet:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - uses: dart-actions/tweet@v1.0.1
+#         with:
+#           text: https://github.com/unobatbayar/problem-solving/commit/${{ github.event.head_commit.id}}
+#           consumer-key: ${{ secrets.TWITTER_CONSUMER_API_KEY }}
+#           consumer-secret: ${{ secrets.TWITTER_CONSUMER_API_SECRET }}
+#           access-token: ${{ secrets.TWITTER_ACCESS_TOKEN }}
+#           access-token-secret: ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }}
