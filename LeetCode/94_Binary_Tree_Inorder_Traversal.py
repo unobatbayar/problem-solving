@@ -10,7 +10,6 @@ class Solution:
             self.dfs(root.left)
             self.visited.append(root.val)    
             self.dfs(root.right)
-        return
     
     def inorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
         self.visited = []  # Initialize the visited list
