@@ -10,8 +10,5 @@ diff21(21) → 0
 """
 
 def diff21(n):
-  abs_diff = abs(21-n)
-  if n > 21:
-    return 2*abs_diff
-  else:
-    return abs_diff
+  return 21-n if n <= 21 else abs(n-21)*2
+
