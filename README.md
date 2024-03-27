@@ -3,7 +3,7 @@
 
   <strong>Solving programming problems</strong>
   
-  [![code with hearth by unobatbayar](https://img.shields.io/badge/%3C%2F%3E%20with%20%E2%99%A5%20by-unobatbayar-blue)](https://github.com/unobatbayar)
+  [![solved with love by unobatbayar](https://img.shields.io/badge/solved%20with%20%E2%99%A5%20by-unobatbayar-blue)](https://github.com/unobatbayar)
 </div>
 
 
