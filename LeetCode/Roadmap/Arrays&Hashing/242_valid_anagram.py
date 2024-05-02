@@ -17,7 +17,6 @@ class Solution:
         return sorted(s) == sorted(t)
 
 # recent attempt (clean version) 
-# edit: this solution and the one below are not very intuitive.
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
         return self.count_characters(s) == self.count_characters(t)
