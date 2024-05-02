@@ -24,6 +24,7 @@ class Solution:
     def count_characters(self, s: str) -> dict:
         char_count = {}
         for c in s:
+            # https://www.w3schools.com/python/ref_dictionary_get.asp
             char_count[c] = char_count.get(c, 0) + 1
         return char_count
         
