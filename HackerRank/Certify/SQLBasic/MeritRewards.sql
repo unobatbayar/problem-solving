@@ -1,0 +1,1 @@
+SELECT employee.employee_ID, employee.Name FROM employee_information employee JOIN last_quarter_bonus l_bonus ON employee.employee_ID = l_bonus.employee_ID WHERE l_bonus.bonus >= 5000 AND employee.division = 'HR';

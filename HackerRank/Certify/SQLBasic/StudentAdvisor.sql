@@ -1,0 +1,1 @@
+SELECT roll_number, name FROM student_information student JOIN faculty_information professor ON student.advisor = professor.employee_ID WHERE (professor.gender = 'M' AND professor.salary > 15000 ) OR (professor.gender = 'F' AND professor.salary > 20000);
