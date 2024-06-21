@@ -17,16 +17,15 @@ import sys
 #
 
 def organizingContainers(container):
-    # Write your code here
-    length = len(container) # container count is same as ball type
+    # container count is same as ball type
+    length = len(container) 
     
+    # keep track of type count
+    count = [] * length
     
     for i in range(0, length):
         for k in range(0, length):
             
-    
-    
-    
 
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
