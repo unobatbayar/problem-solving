@@ -17,15 +17,20 @@ import sys
 #
 
 def organizingContainers(container):
-    # container count is same as ball type
-    length = len(container) 
+    # Write your code here
     
-    # keep track of type count
-    count = [] * length
-    
-    for i in range(0, length):
-        for k in range(0, length):
+    row, col = [0] * n, [0] * n
+        
+    for i in range(0, n):
+        for j in range(0, n):
+            row[i] += container[i][j]
+            col[j] += container[i][j]
             
+    row.sort()
+    col.sort()
+    return "Possible" if row == col else "Impossible"
+    
+    
 
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
