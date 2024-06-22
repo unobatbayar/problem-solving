@@ -26,9 +26,8 @@ def organizingContainers(container):
             row[i] += container[i][j]
             col[j] += container[i][j]
             
-    row.sort()
-    col.sort()
-    return "Possible" if row == col else "Impossible"
+    # Sorting takes O(n log n) time while converting to set takes O(n) time. 
+    return "Possible" if set(row) == set(col) else "Impossible"
     
     
 
