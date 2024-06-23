@@ -3,7 +3,7 @@
 
   <strong>Solving programming problems</strong>
   
-  [![hackerrank](https://img.shields.io/badge/hackerrank-green)](https://hackerrank.com/profile/unobatbayar)
+  [![hackerrank](https://img.shields.io/badge/hackerrank-neon)](https://hackerrank.com/profile/unobatbayar)
 </div>
 
 
