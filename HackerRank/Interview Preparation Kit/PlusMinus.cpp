@@ -13,7 +13,6 @@ vector<string> split(const string &);
  */
 
 void plusMinus(vector<int> arr) {
-    float length = arr.size();
     int count[] = {0, 0, 0};
     
     for (float value : arr) {
@@ -29,7 +28,7 @@ void plusMinus(vector<int> arr) {
     }
     
     for (int i = 0; i < 3; i++){
-        float result = count[i] / length;
+        float result = count[i] / arr.size();
         cout << result << endl;
     }
 }
