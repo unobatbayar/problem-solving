@@ -10,9 +10,9 @@
 </div>
 
 
-## Master the Basics First
+#### Master the Basics First
 
-#### Before diving into complex problems, ensure you have a solid understanding of the basic building blocks of problem-solving, such as:
+Before diving into complex problems, ensure you have a solid understanding of the basic building blocks of problem-solving, such as:
 
     Data Structures: Arrays, linked lists, stacks, queues, trees, graphs, hash maps, heaps, tries, etc.
     Algorithms: Sorting algorithms, searching algorithms (binary search, DFS, BFS), dynamic programming, greedy algorithms, backtracking, etc.
