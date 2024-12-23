@@ -21,8 +21,9 @@ Before diving into complex problems, ensure you have a solid understanding of th
 
 #### Approach
 
-1. Understand the problem.
-2. Identify patterns
-3. Think of a working solution
-4. Execute the solution
-5. Look back.
+1. Read the problem carefully.
+2. Understand the problem.
+3. Identify patterns.
+4. Think of a working solution.
+5. Execute the solution.
+6. Look back.
