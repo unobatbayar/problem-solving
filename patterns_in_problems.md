@@ -1,4 +1,5 @@
-Identifying Problems That Can Use Bitmasking (bitmask = 0, bitmask ^= 1 << 1 (1st bit))
+### Identifying Problems That Can Use Bitmasking 
+(bitmask = 0, bitmask ^= 1 << 1 (1st bit))
 Here’s how you can identify bitmasking-friendly problems:
 
 Subset Problems: Problems that involve considering all subsets or combinations of a set or array. Bitmasks can represent subsets in a compact binary form.
