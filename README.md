@@ -9,6 +9,14 @@
   [![codingbat](https://img.shields.io/badge/codingbat-black)](https://codingbat.com/done?user=drakensgard@ymail.com&tag=8046544472)
 </div>
 
+#### Approach
+
+1. Understand the problem.
+2. Identify patterns
+3. Think of a working solution
+4. Execute the solution
+5. Look back.
+
 
 #### Master the Basics First
 
