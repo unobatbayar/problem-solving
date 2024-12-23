@@ -9,15 +9,6 @@
   [![codingbat](https://img.shields.io/badge/codingbat-black)](https://codingbat.com/done?user=drakensgard@ymail.com&tag=8046544472)
 </div>
 
-#### Approach
-
-1. Understand the problem.
-2. Identify patterns
-3. Think of a working solution
-4. Execute the solution
-5. Look back.
-
-
 #### Master the Basics First
 
 Before diving into complex problems, ensure you have a solid understanding of the basic building blocks of problem-solving, such as:
@@ -25,3 +16,13 @@ Before diving into complex problems, ensure you have a solid understanding of th
  - **Data Structures**: Arrays, linked lists, stacks, queues, trees, graphs, hash maps, heaps, tries, etc.
  - **Algorithms**: Sorting algorithms, searching algorithms (binary search, DFS, BFS), dynamic programming, greedy algorithms, backtracking, etc.
  - **Time and Space Complexity**: Learn Big-O notation and practice analyzing the time and space complexity of algorithms.
+
+---
+
+#### Approach
+
+1. Understand the problem.
+2. Identify patterns
+3. Think of a working solution
+4. Execute the solution
+5. Look back.
